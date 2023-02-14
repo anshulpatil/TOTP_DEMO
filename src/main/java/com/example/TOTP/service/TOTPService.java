@@ -22,6 +22,7 @@ public class TOTPService {
         SecretGenerator generator = new DefaultSecretGenerator(64);
         String secret = generator.generate();
         System.out.println(secret);
+        //testing
         return secret;
     }
 
